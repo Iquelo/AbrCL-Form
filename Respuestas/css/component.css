@@ -1283,3 +1283,17 @@ text-align: right;
 -webkit-transform: translateX(25%);
 transform: translateX(25%);
 }
+
+/* Bootstrap */
+
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.intro-effect-side, 
+.intro-effect-fadeout {
+	height: 100%;
+}
