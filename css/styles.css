@@ -52,6 +52,15 @@ html, body {
 	height: 100%;
 }
 
+header{
+	padding: 10px;
+	border-bottom: 1px solid #f8f8f8;
+}
+
+span.supported{
+	margin: 0 10px;
+}
+
 h1{
 	font-family: 'Fira Sans', sans-serif;
 	font-size: 4.5em;
@@ -67,6 +76,16 @@ h3{
 
 img.img-intro{
 	width: 250px;
+}
+
+.partners ul{
+	display: block;
+}
+
+.partners li{
+	display: block;
+	list-style: none;
+	float: left;
 }
 
 /* Styles fot btn warning */

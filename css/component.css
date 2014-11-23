@@ -51,7 +51,7 @@
 	padding: 2.5em 30% 6em;
 	width: 100%;
 	height: 100%;
-	background: #fffed8;
+	background: #EF5555;
 	color: #3b3f45;
 	font-size: 1.2em;
 }
@@ -292,16 +292,18 @@ button.fs-continue,
 	margin-right: 3%;
 	padding: 10px;
 	max-width: 200px;
-	width: 30%;
+	width: 15%;
 	text-align: center;
-	font-weight: 700;
 	font-size: 50%;
+	font-weight: 300;
 }
 
 .fs-fields > li .fs-radio-custom span label {
-	color: rgba(0,0,0,0.4);
 	-webkit-transition: color 0.3s;
 	transition: color 0.3s;
+	font-size: 1em;
+	font-weight: 300;
+	color: #fff;
 }
 
 .fs-form-overview .fs-fields > li .fs-radio-custom span {
@@ -367,7 +369,7 @@ button.fs-continue,
 	padding: 0.25em;
 	width: 100%;
 	height: 200px;
-	border: 1px solid rgba(0,0,0,0.2);
+	border: 1px solid #32CCDD;
 	color: #222;
 	font-weight: 700;
 	font-size: 0.85em;
@@ -672,8 +674,9 @@ button.fs-continue:hover {
 	max-width: 960px;
 	width: 70%;
 	color: #eb7e7f;
-	font-weight: 700;
+	font-weight: 300;
 	font-size: 1em;
+	color: red;
 	opacity: 0;
 	-webkit-transform: translate3d(-50%,-5px,0);
 	transform: translate3d(-50%,-5px,0);
