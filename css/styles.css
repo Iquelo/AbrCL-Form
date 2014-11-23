@@ -48,8 +48,8 @@ html, body {
 }
 
 #form{
-	min-height: 900px;
-	background: #EF5455;
+	background: #17BACD;
+	height: 100%;
 }
 
 h1{
@@ -77,4 +77,8 @@ img.img-intro{
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50px;
 	border-radius: 50px;
+}
+
+.btn-go{
+	margin: 40px;
 }
