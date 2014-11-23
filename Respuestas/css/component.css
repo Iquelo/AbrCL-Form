@@ -97,12 +97,12 @@ button.trigger {
 	cursor: pointer;
 }
 
-.container:not(.notrans) button.trigger {
+.container-fluid:not(.notrans) button.trigger {
 	-webkit-transition: opacity 0.3s 0.5s;
 	transition: opacity 0.3s 0.5s;
 }
 
-.container.modify:not(.notrans) button.trigger {
+.container-fluid.modify:not(.notrans) button.trigger {
 	opacity: 0;
 	pointer-events: none;
 	-webkit-transition-delay: 0s;
@@ -430,8 +430,8 @@ button.trigger span::before {
 .intro-effect-fadeout.modify .header p:nth-child(2),
 .intro-effect-fadeout.modify .header p:nth-child(3) {
 	opacity: 1;
-	-webkit-transform: translate(10%, 10%);
-	transform: translate(10%, 10%);
+	-webkit-transform: translate(20%);
+	transform: translateX(20%);
 }
 
 .intro-effect-fadeout .content {
